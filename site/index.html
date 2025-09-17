@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Build Co.</title>
+    <style>
+        :root {
+            --primary-color: #333333;
+            --secondary-color: #555555;
+            --accent-color: #ffcc00;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --heading-font: 'Arial', sans-serif;
+            --body-font: 'Helvetica', sans-serif;
+        }
+        body {
+            margin: 0;
+            font-family: var(--body-font);
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+            background: var(--primary-color);
+        }
+        h1 {
+            font-family: var(--heading-font);
+            font-size: 2.5em;
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin: 40px 0;
+            padding: 20px;
+            background: var(--secondary-color);
+            border-radius: 8px;
+        }
+        h2 {
+            font-family: var(--heading-font);
+            font-size: 2em;
+        }
+        p {
+            font-size: 1em;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: var(--text-color);
+            background: var(--accent-color);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #e6b800;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: var(--primary-color);
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modern Build Co.</h1>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Your Local Construction Experts</h2>
+            <p>Building your dreams with modern solutions.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </section>
+        <section id="features">
+            <h2>Our Services</h2>
+            <h3>Residential Construction</h3>
+            <p>We specialize in building beautiful homes tailored to your needs.</p>
+            <h3>Commercial Projects</h3>
+            <p>From offices to retail spaces, we handle all types of commercial construction.</p>
+            <h3>Renovations</h3>
+            <p>Transform your existing space into something extraordinary with our renovation services.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Modern Build Co. has been serving the local community for over a decade, delivering quality construction services with a focus on modern design and sustainability.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to discuss your project, feel free to reach out!</p>
+            <a href="mailto:info@modernbuildco.com" class="cta-button">Email Us</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Modern Build Co. All rights reserved.</p>
+    </footer>
+</body>
+</html>
